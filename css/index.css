@@ -1,0 +1,56 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+
+div#header {
+    padding: 0px 2vw;
+    background: #00536B;
+    height: 380px;
+    display: table;
+    vertical-align: middle;
+    width: 98vw;
+    padding-right: 0;
+    color: white;
+}
+
+div#header_left {
+    width: 56vw;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    display: table-cell;
+}
+
+div#academies {
+    float: right;
+    width: 33vw;
+    background: #12AAB9;
+    padding-left: 32px;
+    padding-right: 0px;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+#academies h1 {
+    margin-bottom: 0;
+}
+
+div#academies a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 9px;
+}
+
+i {
+    display: none !important;
+    margin-left: -30px;
+    padding-right: 10px;
+}
+#academies p {
+    margin: 2px 0px;
+}

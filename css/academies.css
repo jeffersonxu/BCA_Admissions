@@ -1,0 +1,106 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+h1.acronym, .full_name {
+    text-align: center;
+}
+
+h1.acronym {
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+h2.full_name {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.header {
+    padding: 17px;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+div#description_paragraphs {
+    padding: 20px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.AAST .header {
+	background-color: #5FB371;
+}
+
+.AAST #description_paragraphs {
+	background: #CFF9D2;
+}
+
+.ABF .header {
+    background: #AD7C33;
+}
+
+.ABF #description_paragraphs {
+    background: #F3E7D9;
+}
+
+.AMST .header {
+    background: #B73636;
+}
+
+.AEDT .header {
+    background: #123467;
+}
+
+.AEDT #description_paragraphs {
+    background: #E6EEF5;
+    min-height: 68vh;
+}
+
+.ACHA .header {
+    background: #CA448E;
+}
+
+.ACHA #description_paragraphs {
+    background: #FFF0FC;
+    min-height: 68vh;
+}
+
+.AVPA-M .header {
+    background: #C0A4E6;
+}
+
+.AVPA-M #description_paragraphs {
+    background: #FCF4FD;
+}
+
+.AVPA-T .header {
+    background: #40026F;
+}
+
+.AVPA-T #description_paragraphs {
+    background: #F7F0FF;
+    min-height: 70vh;
+}
+
+.AVPA-V .header {
+    background: #E47401;
+}
+
+.AVPA-V #description_paragraphs {
+    background: #FFEEE0;
+}
+
+.ATCS .header {
+    background: #43BDA7;
+}
+
+.ATCS div#description_paragraphs {
+    background: #F0FFFE;
+}
+
