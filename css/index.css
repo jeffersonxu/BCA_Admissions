@@ -29,6 +29,7 @@ div#academies {
     padding-left: 32px;
     padding-right: 0px;
     color: white;
+    padding-bottom: 13px;
 }
 
 body {
@@ -42,13 +43,13 @@ body {
 div#academies a {
     color: white;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     padding: 9px;
+    padding-left: 2px;
 }
 
-i {
-    display: none !important;
-    margin-left: -30px;
+.fa {
+    display: none;
     padding-right: 10px;
 }
 #academies p {
