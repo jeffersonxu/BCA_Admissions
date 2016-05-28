@@ -37,7 +37,7 @@ div#description_paragraphs {
 	background-color: #5FB371;
 }
 
-.AAST #description_paragraphs {
+.AAST{
 	background: #CFF9D2;
 }
 
@@ -45,7 +45,7 @@ div#description_paragraphs {
     background: #AD7C33;
 }
 
-.ABF #description_paragraphs {
+.ABF {
     background: #F3E7D9;
 }
 
@@ -57,7 +57,7 @@ div#description_paragraphs {
     background: #123467;
 }
 
-.AEDT #description_paragraphs {
+.AEDT {
     background: #E6EEF5;
     min-height: 68vh;
 }
@@ -66,7 +66,7 @@ div#description_paragraphs {
     background: #CA448E;
 }
 
-.ACHA #description_paragraphs {
+.ACHA {
     background: #FFF0FC;
     min-height: 68vh;
 }
@@ -75,7 +75,7 @@ div#description_paragraphs {
     background: #C0A4E6;
 }
 
-.AVPA-M #description_paragraphs {
+.AVPA-M {
     background: #FCF4FD;
 }
 
@@ -83,7 +83,7 @@ div#description_paragraphs {
     background: #40026F;
 }
 
-.AVPA-T #description_paragraphs {
+.AVPA-T {
     background: #F7F0FF;
     min-height: 70vh;
 }
@@ -92,7 +92,7 @@ div#description_paragraphs {
     background: #E47401;
 }
 
-.AVPA-V #description_paragraphs {
+.AVPA-V {
     background: #FFEEE0;
 }
 
@@ -100,7 +100,7 @@ div#description_paragraphs {
     background: #43BDA7;
 }
 
-.ATCS div#description_paragraphs {
+.ATCS  {
     background: #F0FFFE;
 }
 
