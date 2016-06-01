@@ -6,8 +6,8 @@
 
 div#header {
     padding: 0px 2vw;
-    background: #00536B;
-    height: 380px;
+    background: #3366CC;
+    height: 100vh;
     display: table;
     vertical-align: middle;
     width: 98vw;
@@ -26,11 +26,12 @@ div#header_left {
 div#academies {
     float: right;
     width: 33vw;
-    background: #12AAB9;
+    background: #3399FF;
     padding-left: 32px;
     padding-right: 0px;
     color: white;
     padding-bottom: 13px;
+    height: 100vh;
 }
 
 body {
@@ -46,13 +47,15 @@ div#academies a {
     color: white;
     text-decoration: none;
     display: inline-block;
-    padding: 9px;
+    padding: 2.3vh;
     padding-left: 2px;
+    font-size: 3.5vh;
 }
 
 .fa {
     display: none;
     padding-right: 10px;
+    font-size: 3.5vh;
 }
 #academies p {
     margin: 2px 0px;
@@ -60,13 +63,13 @@ div#academies a {
 
 div#academies_links {
     padding: 10px 25px;
-    background: #D8D8D8;
+    background: #FFFFFF;
     font-size: 18px;
 }
 
 div#program_descriptions {
     padding: 10px 25px;
-    background: #949496;
+    background: #161661;
     color: white;
     font-size: 18px;
 }
@@ -75,69 +78,46 @@ div#program_descriptions {
 .tg td{font-size: 19px;padding: 21px 0;border-width:1px;overflow:hidden;word-break:normal;vertical-align: middle;width: 25vw;color: white;transition: background 0.5s;}
 .tg .tg-yw4l{vertical-align: middle;}
 
-td.tg-c9cr {
-    background-color: #8C2134;
+
+tr:nth-child(2) td:nth-child(even) {
+    background: #004A79;
 }
 
-tr:nth-child(1) td.tg-yw4l:nth-child(2) {
+
+
+tr:nth-child(2) td:nth-child(odd):hover {
+    background: #8AADCC;
+}
+
+tr:nth-child(1) td:nth-child(even):hover {
+    background: #8AADCC;
+}
+
+tr:nth-child(2) td:nth-child(odd) {
     background: #447AA9;
 }
 
-tr:nth-child(1) td.tg-yw4l:nth-child(3) {
-    background: #066B41;
+tr:nth-child(1) td.tg-yw4l:nth-child(even),Ã‚Â  {
+    background: #447AA9;
 }
 
-tr:nth-child(1) td.tg-yw4l:nth-child(4) {
-    background: #421035;
+tr:nth-child(1) td:nth-child(odd) {
+    background: #004A79;
 }
 
-tr:nth-child(2) td.tg-yw4l:nth-child(1) {
-    background: #4E0000;
+tr:nth-child(1) td:nth-child(odd):hover {
+    background: #002F4C;
 }
 
-tr:nth-child(2) td.tg-yw4l:nth-child(2) {
-    background: rgb(212, 117, 19);
+tr:nth-child(2) td:nth-child(even):hover {
+    background: #002F4C;
 }
 
-tr:nth-child(2) td.tg-yw4l:nth-child(3) {
-    background: #96144A;
+
+tr:nth-child(1) td:nth-child(even):hover {
+    background: #8AADCC;
 }
 
-tr:nth-child(2) td.tg-yw4l:nth-child(4) {
-    background: #20478E;
-}
-
-tr:nth-child(1) td.tg-yw4l:nth-child(4):hover {
-    background: #731B5D;
-}
-
-tr:nth-child(1) td.tg-yw4l:nth-child(3):hover {
-    background: #09804E;
-}
-
-tr:nth-child(1) td.tg-yw4l:nth-child(2):hover {
-    background: #4D8ABF;
-}
-
-td.tg-c9cr:hover {
-    background: #9C263B;
-}
-
-tr:nth-child(2) td.tg-yw4l:nth-child(1):hover {
-    background: #6F0000;
-}
-
-tr:nth-child(2) td.tg-yw4l:nth-child(2):hover {
-    background: #E28B32;
-}
-
-tr:nth-child(2) td.tg-yw4l:nth-child(3):hover {
-    background: #BD1D5F;
-}
-
-tr:nth-child(2) td.tg-yw4l:nth-child(4):hover {
-    background: #2A5DB9;
-}
 
 footer#footer {
     color: white;
