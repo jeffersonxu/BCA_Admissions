@@ -36,20 +36,21 @@ div#academies {
 
 body {
     margin: 0;
-    background: #444546;
+    background: #000000;
 }
 
 #academies h1 {
     margin-bottom: 0;
+    font-weight: 400;
 }
 
 div#academies a {
     color: white;
     text-decoration: none;
     display: inline-block;
-    padding: 2.3vh;
+    padding: 2.7vh;
     padding-left: 2px;
-    font-size: 3.5vh;
+    font-size: 3.7vh;
 }
 
 .fa {
@@ -75,51 +76,45 @@ div#program_descriptions {
 }
 
 .tg  {border-collapse:collapse;border-spacing:0;width: 100vw;text-align: center;}
-.tg td{font-size: 19px;padding: 21px 0;border-width:1px;overflow:hidden;word-break:normal;vertical-align: middle;width: 25vw;color: white;transition: background 0.5s;}
-.tg .tg-yw4l{vertical-align: middle;}
+.tg .light, .tg .dark{font-size: 19px;padding: 21px 0;border-width:1px;overflow:hidden;word-break:normal;vertical-align: middle;width: 20vw;color: white;transition: background 0.5s;margin: 12px;}
 
 
-tr:nth-child(2) td:nth-child(even) {
-    background: #004A79;
+.dark:hover,  .light:hover {
+    background: #8AADCC;
+    box-shadow: 3px 2px 28px rgba(226, 223, 223, 0.47);
 }
 
-
-
-tr:nth-child(2) td:nth-child(odd):hover {
+.light:hover {
     background: #8AADCC;
 }
 
-tr:nth-child(1) td:nth-child(even):hover {
-    background: #8AADCC;
-}
-
-tr:nth-child(2) td:nth-child(odd) {
+.dark {
     background: #447AA9;
 }
 
-tr:nth-child(1) td.tg-yw4l:nth-child(even),Ã‚Â  {
-    background: #447AA9;
-}
-
-tr:nth-child(1) td:nth-child(odd) {
-    background: #004A79;
-}
-
-tr:nth-child(1) td:nth-child(odd):hover {
-    background: #002F4C;
-}
-
-tr:nth-child(2) td:nth-child(even):hover {
-    background: #002F4C;
-}
-
-
-tr:nth-child(1) td:nth-child(even):hover {
-    background: #8AADCC;
+.light {
+    background: #243C9E;
 }
 
 
 footer#footer {
-    color: white;
+    color: #FFFFFF;
     padding-left: 14px;
+}
+
+.tg {
+   display: table;
+   border-collapse: collapse;
+}
+ 
+.tg .box-row {
+}
+ 
+.tg .light, .tg .dark {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+div#opportunites {
+    padding: 10px 0px;
 }
