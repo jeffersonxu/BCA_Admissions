@@ -6,13 +6,13 @@
 
 div#header {
     padding: 0px 2vw;
-    background: #3366CC;
+    background: #ffffff;
     height: 100vh;
     display: table;
     vertical-align: middle;
     width: 98vw;
     padding-right: 0;
-    color: white;
+    color: #19BB9E;
 }
 
 div#header_left {
@@ -26,7 +26,7 @@ div#header_left {
 div#academies {
     float: right;
     width: 33vw;
-    background: #3399FF;
+    background: #70ccac;
     padding-left: 32px;
     padding-right: 0px;
     color: white;
@@ -36,7 +36,7 @@ div#academies {
 
 body {
     margin: 0;
-    background: #000000;
+    background: #f1feff;
 }
 
 #academies h1 {
@@ -64,41 +64,45 @@ div#academies a {
 
 div#academies_links {
     padding: 10px 25px;
-    background: #FFFFFF;
+    background: #ffffff;
     font-size: 18px;
+    border-top: 4px solid #388067;
 }
 
 div#program_descriptions {
     padding: 10px 25px;
-    background: #161661;
+    background: #39afa1;
     color: white;
     font-size: 18px;
 }
 
 .tg  {border-collapse:collapse;border-spacing:0;width: 100vw;text-align: center;}
-.tg .light, .tg .dark{font-size: 19px;padding: 21px 0;border-width:1px;overflow:hidden;word-break:normal;vertical-align: middle;width: 20vw;color: white;transition: background 0.5s;margin: 12px;}
+.tg .light, .tg .dark{font-size: 19px;padding: 21px 0;border-width:1px;overflow:hidden;word-break:normal;vertical-align: middle;width: 20vw;color: white;transition: all 0.2s;margin: 12px;}
 
 
-.dark:hover,  .light:hover {
-    background: #8AADCC;
-    box-shadow: 3px 2px 28px rgba(226, 223, 223, 0.47);
+.dark:hover, .light:hover {
+    background: #8accb8;
+    box-shadow: 5px 6px 11px rgba(193, 193, 193, 0.46);
+    position: relative;
 }
 
 .light:hover {
-    background: #8AADCC;
+    box-shadow: 5px 6px 11px rgba(193, 193, 193, 0.46);
+    position: relative;
+    background: #005d4d;
 }
 
 .dark {
-    background: #447AA9;
+    background: #57d2b8;
 }
 
 .light {
-    background: #243C9E;
+    background: #268470;
 }
 
 
 footer#footer {
-    color: #FFFFFF;
+    color: #196573;
     padding-left: 14px;
 }
 
@@ -117,4 +121,10 @@ footer#footer {
 
 div#opportunites {
     padding: 10px 0px;
+}
+
+hr {
+    border: 0.5px solid black;
+    margin: 0 auto;
+    width: 96vw;
 }
