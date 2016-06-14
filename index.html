@@ -1,35 +1,78 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en" class="no-js">
 	<head>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/unslider.css">
+		<link rel="stylesheet" href="css/nav.css">
+		<link rel="stylesheet" href="css/unslider-dots.css">
 		<link rel="stylesheet" type="text/css" href = "css/font-awesome.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href = "css/index.css">
+		
 		<link rel="stylesheet" type="text/css" href = "css/animate.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src = "js/index.js"></script>
+		<script src="js/unslider.js"></script>
+		<script src="js/modernizr.js"></script> 
+		<link rel="stylesheet" type="text/css" href = "css/index.css">
+		<script>
+		jQuery(document).ready(function($) {
+			$('.my-slider').unslider({
+				autoplay: true
+			});
+		});
+	</script>
 	</head>
 	<body>
+
+		<header>
+			<div class="cd-logo"><a href="#0"><img src="images/logo.png" alt="Logo"></a></div>
+		 
+			<nav class="cd-main-nav-wrapper">
+				<ul class="cd-main-nav">
+					<li><a href="#0">About</a></li>
+					<!-- other list items here -->
+					<li>
+						<a href="#0" class="cd-subnav-trigger"><span>Academies</span></a>
+		 
+						<ul>
+							<li class="go-back"><a href="#0">Menu</a></li>
+							<li><a class = "AAST" href = "academies/AAST.html">AAST</a><i class="animated bounceInLeft AAST-i fa fa-flask" aria-hidden="true"></i></li>
+							<li><a class = "ATCS" href = "academies/ATCS.html">ATCS</a><i class="animated bounceInLeft ATCS-i fa fa-laptop" aria-hidden="true"></i></li>
+							<li><a class = "AMST" href = "academies/AMST.html">AMST</a><i class="animated bounceInLeft AMST-i fa fa-user-md" aria-hidden="true"></i></li>
+							<li><a class = "AEDT" href = "academies/AEDT.html">AEDT</a><i class="animated bounceInLeft AEDT-i fa fa-cog" aria-hidden="true"></i></li>
+							<li><a class = "ACHA" href = "academies/ACHA.html">ACHA</a><i class="animated bounceInLeft ACHA-i fa fa-cutlery" aria-hidden="true"></i></li>
+							<li><a class = "ABF" href = "academies/ABF.html">ABF</a><i class="animated bounceInLeft ABF-i fa fa-money" aria-hidden="true"></i></li>
+							<li><a class = "AVPA-M" href = "academies/AVPA-M.html">AVPA-M</a><i class="animated bounceInLeft AVPA-M-i fa fa-music" aria-hidden="true"></i></li>
+							<li><a class = "AVPA-V" href = "academies/AVPA-V.html">AVPA-V</a><i class="animated bounceInLeft AVPA-V-i fa fa-paint-brush" aria-hidden="true"></i></li>
+							<li><a class = "AVPA-T" href = "academies/AVPA-T.html">AVPA-T</a><i class="animated bounceInLeft AVPA-T-i fa fa-sign-language" aria-hidden="true"></i></li>
+							<!-- other list items here -->
+						</ul>
+					</li>
+				</ul>
+			</nav> 
+			
+			<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+		</header>
+
+		<main class="cd-main-content">
 		<div id = "header">
 			<div id = 'header_left'>
 				<h1 class = "animated fadeInLeft">WELCOME TO THE BERGEN COUNTY ACADEMIES!</h1>
-			</div>
-			<div class = "animated fadeIn" id = "academies">
-				<h1>The Academies:</h1>
-				<a class = "AAST" href = "academies/AAST.html">AAST</a><i class="animated bounceInLeft AAST-i fa fa-flask" aria-hidden="true"></i><br>
-				<a class = "ATCS" href = "academies/ATCS.html">ATCS</a><i class="animated bounceInLeft ATCS-i fa fa-laptop" aria-hidden="true"></i><br>
-				<a class = "AMST" href = "academies/AMST.html">AMST</a><i class="animated bounceInLeft AMST-i fa fa-user-md" aria-hidden="true"></i><br>
-				<a class = "AEDT" href = "academies/AEDT.html">AEDT</a><i class="animated bounceInLeft AEDT-i fa fa-cog" aria-hidden="true"></i><br>
-				<a class = "ACHA" href = "academies/ACHA.html">ACHA</a><i class="animated bounceInLeft ACHA-i fa fa-cutlery" aria-hidden="true"></i><br>
-				<a class = "ABF" href = "academies/ABF.html">ABF</a><i class="animated bounceInLeft ABF-i fa fa-money" aria-hidden="true"></i><br>
-				<a class = "AVPA-M" href = "academies/AVPA-M.html">AVPA-M</a><i class="animated bounceInLeft AVPA-M-i fa fa-music" aria-hidden="true"></i><br>
-				<a class = "AVPA-V" href = "academies/AVPA-V.html">AVPA-V</a><i class="animated bounceInLeft AVPA-V-i fa fa-paint-brush" aria-hidden="true"></i><br>
-				<a class = "AVPA-T" href = "academies/AVPA-T.html">AVPA-T</a><i class="animated bounceInLeft AVPA-T-i fa fa-sign-language" aria-hidden="true"></i><br>
 			</div>
 		</div>
 		<div id = "academies_links">
 			<p>The Bergen County Academies offers students a unique high school experience that combines comprehensive academics with technical and professional courses. We encourage our students to choose an academy concentration based upon their interests rather than a future career choice.</p>
 			<p>Pursue your passion for science, art, computers, music, theatre, cooking, design, or finance—our programs will allow you to explore your interest while preparing you to meet the academic challenge of college. You may complement your studies with electives and clubs that cross academy boundaries; you are not limited to study in just one field. Students receive a fine academic background that prepares them well for postsecondary study in any field they choose.</p>
-			<img src = "images/davis.png">
+
+			<div class="my-slider">
+				<ul>
+					<li><img src = "images/davis.png"></li>
+					<li><img src = "images/medical2.JPG"></li>
+					<li><img src = "images/theatre1.JPG"></li>
+				</ul>
+			</div>
+			
 		</div>
 		<div id = "program_descriptions">
 			<p>The Bergen County Academies includes seven specialized high school programs; each emphasis is a different career path. Our graduates attend a wide range of universities and colleges throughout the nation and abroad.</p>
@@ -60,5 +103,7 @@
 			<p>Hackensack, New Jersey 07601</p>
 			<p>201-343-6000 • www.bergen.org</p>
 		</footer>
+		</main>
+		<script src="js/nav.js"></script> 
 	</body>
 </html>

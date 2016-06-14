@@ -1,6 +1,6 @@
 * {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 300 !important;
 }
 
 
@@ -80,7 +80,7 @@ div#program_descriptions {
 .tg .light, .tg .dark{font-size: 19px;padding: 21px 0;border-width:1px;overflow:hidden;word-break:normal;vertical-align: middle;width: 20vw;color: white;transition: all 0.2s;margin: 12px;}
 
 
-.dark:hover, .light:hover {
+.dark:hover,Â .light:hover {
     background: #8accb8;
     box-shadow: 5px 6px 11px rgba(193, 193, 193, 0.46);
     position: relative;
@@ -127,4 +127,36 @@ hr {
     border: 0.5px solid black;
     margin: 0 auto;
     width: 96vw;
+}
+
+.unslider {
+    width: 190px;
+    margin: 0 auto;
+}
+
+a.unslider-arrow.prev {
+    position: relative;
+    left: 120px;
+    display: none;
+}
+
+a.unslider-arrow.next {
+    display: none;
+    left: 1px;
+}
+
+.unslider-nav ol li {
+    border: 2px solid black;
+}
+
+.unslider-nav ol li.unslider-active {
+    background: black;
+}
+
+.cd-logo img {
+    width: 24px;
+}
+
+.cd-main-nav.moves-out > li > ul {
+    padding-right: 210px;
 }
