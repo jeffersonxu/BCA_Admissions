@@ -37,7 +37,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #33414a;
+  background-color: transparent;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Force Hardware Acceleration */
@@ -316,7 +316,7 @@ header::before {
     line-height: 80px;
     /* padding left = logo size + logo left position*/
     padding: 0px 25px 9px 0;
-    background: transparent;
+    background: rgba(255, 255, 255, 0);
     text-align: right;
   }
   .cd-main-nav li {
@@ -480,7 +480,7 @@ header::before {
   position: relative;
   z-index: 2;
   min-height: 100vh;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   background-color: #f2f2f2;
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
@@ -495,7 +495,7 @@ header::before {
 }
 @media only screen and (min-width: 1024px) {
   .cd-main-content {
-    padding-top: 80px;
+    /* padding-top: 80px; */
   }
   .cd-main-content.nav-is-visible {
     -webkit-transform: translateX(0);
@@ -590,4 +590,13 @@ ul.cd-main-nav.moves-out .cd-subnav-trigger span {
 
 ul.cd-main-nav.moves-out .cd-subnav-trigger {
     border: 1px solid rgba(97, 97, 97, 0.2);
+}
+
+nav.cd-main-nav-wrapper {
+    overflow: hidden;
+    background: transparent;
+}
+
+ul.cd-main-nav {
+    overflow: hidden;
 }

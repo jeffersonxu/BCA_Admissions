@@ -46,3 +46,21 @@ jQuery(document).ready(function($){
 		return ( mq == 'mobile' ) ? false : true;
 	}
 });
+
+$( document ).scroll(function() {
+		var y = $(this).scrollTop();
+
+		if (y > 30) {
+			$(".cd-main-nav-wrapper").css(headerFixed);
+	    }
+	    else {
+	    	$(".cd-main-nav-wrapper").removeAttr('style');
+		}
+});
+
+var headerFixed = {
+	background : "#33414a",
+	transition : ".4s"
+}
+
+
