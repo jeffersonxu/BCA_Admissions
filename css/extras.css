@@ -1,11 +1,38 @@
 * {
 	font-family: 'Lato', sans-serif;
+	margin: 0;
 }
 h1{
-	font-size: 3em;
+	font-size: 4em;
 	font-weight: 400;
+}
+li{
+	list-style-type: none;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 1.75em;
 }
 #main{
 	margin: 0 auto;
-    width: 100px; 
+	text-align: center;
+	padding: 4em;
 }
+.container{
+	padding: 5em;
+}
+.elective{
+	background-color: #39B7CD;
+	color: white;
+}
+.container p {
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 1.75em;
+}
+.list{
+	color: white;
+	background-color: #FFBF00; 
+	text-align: center;
+	padding: 2em;
+}
+
