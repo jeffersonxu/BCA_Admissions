@@ -6,12 +6,15 @@
 
 div#header {
     padding: 0px 2vw;
-    background: #ffffff;
-    height: 100vh;
+    background-image: url("../images/graduation.jpg");
+    background-color: #ffffff;
+    height: 92vh;
     display: table;
     vertical-align: middle;
-    width: 98vw;
+    width: 100vw;
     padding-right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #19BB9E;
 }
 
@@ -21,6 +24,9 @@ div#header_left {
     vertical-align: middle;
     position: relative;
     display: table-cell;
+    color: white;
+    font-size: 40px;
+    line-height: 1.45;
 }
 
 div#academies {
@@ -80,7 +86,7 @@ div#program_descriptions {
 .tg .light, .tg .dark{font-size: 19px;padding: 21px 0;border-width:1px;overflow:hidden;word-break:normal;vertical-align: middle;width: 20vw;color: white;transition: all 0.2s;margin: 12px;}
 
 
-.dark:hover,Â .light:hover {
+.dark:hover,Ãƒâ€šÃ‚Â .light:hover {
     background: #8accb8;
     box-shadow: 5px 6px 11px rgba(193, 193, 193, 0.46);
     position: relative;
@@ -157,6 +163,3 @@ a.unslider-arrow.next {
     width: 24px;
 }
 
-.cd-main-nav.moves-out > li > ul {
-    padding-right: 210px;
-}

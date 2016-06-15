@@ -264,7 +264,7 @@ header::before {
   display: inline-block;
   height: 2px;
   width: 10px;
-  background: #485c68;
+  background: #ffffff;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -352,14 +352,14 @@ header::before {
   }
   .cd-main-nav .cd-subnav-trigger {
     z-index: 1;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(224, 220, 220, 0.2);
     border-radius: 5em;
     -webkit-transition: border 0.3s;
     -moz-transition: border 0.3s;
     transition: border 0.3s;
   }
   .cd-main-nav .cd-subnav-trigger:hover {
-    border-color: rgba(255, 255, 255, 0.4);
+    border-color: rgba(165, 165, 165, 0.4);
   }
   .cd-main-nav .cd-subnav-trigger::before, .cd-main-nav .cd-subnav-trigger::after {
     top: 22px;
@@ -384,7 +384,7 @@ header::before {
   }
   .cd-main-nav li ul {
     height: 80px;
-    background-color: #7e4d7e;
+    background-color: rgb(255, 222, 0);
     /* padding left = logo size + logo left position*/
     padding: 0 5% 0 calc(5% + 124px);
     -webkit-transform: translateY(-80px);
@@ -453,6 +453,7 @@ header::before {
     -ms-transform: rotate(225deg);
     -o-transform: rotate(225deg);
     transform: rotate(225deg);
+    background: black;
   }
   .cd-main-nav.moves-out .cd-subnav-trigger::after {
     -webkit-transform: rotate(135deg);
@@ -460,6 +461,7 @@ header::before {
     -ms-transform: rotate(135deg);
     -o-transform: rotate(135deg);
     transform: rotate(135deg);
+    background: black;
   }
 }
 
@@ -570,4 +572,22 @@ header::before {
   .no-js .cd-main-content {
     padding-top: 80px;
   }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cd-main-nav.moves-out > li > ul {
+      padding-right: 210px;
+  }
+  .academies_links a {
+      color: #050d1b;
+  }
+}
+
+
+ul.cd-main-nav.moves-out .cd-subnav-trigger span {
+    color: #160d46;
+}
+
+ul.cd-main-nav.moves-out .cd-subnav-trigger {
+    border: 1px solid rgba(97, 97, 97, 0.2);
 }
