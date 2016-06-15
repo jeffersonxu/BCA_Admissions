@@ -311,11 +311,11 @@ header::before {
   .cd-main-nav {
     position: static;
     visibility: visible;
-    width: 100%;
+    width: 100vw;
     height: 80px;
     line-height: 80px;
     /* padding left = logo size + logo left position*/
-    padding: 0 5% 0 calc(5% + 124px);
+    padding: 0px 25px 9px 0;
     background: transparent;
     text-align: right;
   }

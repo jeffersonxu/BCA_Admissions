@@ -72,21 +72,22 @@ div#academies_links {
     padding: 10px 25px;
     background: #ffffff;
     font-size: 18px;
-    border-top: 4px solid #388067;
+    border-top: 4px solid #ffffff;
 }
 
 div#program_descriptions {
     padding: 10px 25px;
-    background: #39afa1;
+    background: #1d1d1d;
     color: white;
     font-size: 18px;
+    line-height: 1.4;
 }
 
 .tg  {border-collapse:collapse;border-spacing:0;width: 100vw;text-align: center;}
 .tg .light, .tg .dark{font-size: 19px;padding: 21px 0;border-width:1px;overflow:hidden;word-break:normal;vertical-align: middle;width: 20vw;color: white;transition: all 0.2s;margin: 12px;}
 
 
-.dark:hover,Ãƒâ€šÃ‚Â .light:hover {
+.dark:hover,ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â .light:hover {
     background: #8accb8;
     box-shadow: 5px 6px 11px rgba(193, 193, 193, 0.46);
     position: relative;
