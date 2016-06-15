@@ -8,7 +8,7 @@ div#header {
     padding: 0px 2vw;
     background-image: url("../images/graduation.jpg");
     background-color: #ffffff;
-    height: 92vh;
+    height: 100vh;
     display: table;
     vertical-align: middle;
     width: 100vw;
@@ -42,7 +42,7 @@ div#academies {
 
 body {
     margin: 0;
-    background: #f1feff;
+    background: #ffffff;
 }
 
 #academies h1 {
@@ -73,6 +73,9 @@ div#academies_links {
     background: #ffffff;
     font-size: 18px;
     border-top: 4px solid #ffffff;
+    margin: 0 auto;
+    line-height: 1.85;
+    text-align: center;
 }
 
 div#program_descriptions {
@@ -87,7 +90,7 @@ div#program_descriptions {
 .tg .light, .tg .dark{font-size: 19px;padding: 21px 0;border-width:1px;overflow:hidden;word-break:normal;vertical-align: middle;width: 20vw;color: white;transition: all 0.2s;margin: 12px;}
 
 
-.dark:hover,ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â .light:hover {
+.dark:hover,ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â .light:hover {
     background: #8accb8;
     box-shadow: 5px 6px 11px rgba(193, 193, 193, 0.46);
     position: relative;
@@ -109,8 +112,13 @@ div#program_descriptions {
 
 
 footer#footer {
-    color: #196573;
+    color: #ffffff;
     padding-left: 14px;
+    padding: 40px;
+    background-color: rgb(242, 179, 25);
+    height: 319px;
+    font-size: 21px;
+    line-height: 1.35;
 }
 
 .tg {
@@ -164,3 +172,33 @@ a.unslider-arrow.next {
     width: 24px;
 }
 
+div#academies_links p {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.header-logo img {
+    width: 38vh;
+    margin: 21px;
+}
+
+.footer-column-1 {
+    float: left;
+    width: 40%;
+}
+
+.footer-column-2 {
+    float: right;
+    width: 60%;
+    padding-left: 60px;
+}
+
+footer#footer a {
+    color: white;
+}
+
+.footer-column-2 h2 {
+    font-weight: 500 !important;
+    font-size: 24px;
+}
