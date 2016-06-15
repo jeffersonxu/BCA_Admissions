@@ -6,9 +6,9 @@
 	background-color: #50A6C2;
 	color: white;
 }
-h1{
-	font-size: 4em;
-	font-weight: 400;
+#main h1{
+	font-size: 90px;
+	font-weight: 300;
 }
 li{
 	list-style-type: none;
@@ -23,7 +23,7 @@ a{
 #main{
 	margin: 0 auto;
 	text-align: center;
-	padding: 4em;
+	padding: 13em 10px;
 }
 .container{
 	padding: 5em;
@@ -57,8 +57,10 @@ a{
 	color: white;
 }
 .global-education{
+	background-image: url("../images/ABFtrip-background.jpg");
 	background-color: #90EE90;
 	color: white;
+	background-position: top center;
 }
 .projects{
 	background-color: #0A7E8C;
@@ -78,3 +80,7 @@ a{
 }
 
 
+
+.owl-item img {
+    height: 160px;
+}
