@@ -591,3 +591,11 @@ ul.cd-main-nav.moves-out .cd-subnav-trigger span {
 ul.cd-main-nav.moves-out .cd-subnav-trigger {
     border: 1px solid rgba(97, 97, 97, 0.2);
 }
+
+nav.cd-main-nav-wrapper {
+    overflow: hidden;
+}
+
+ul.cd-main-nav {
+    overflow: hidden;
+}
