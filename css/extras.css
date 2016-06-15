@@ -12,6 +12,9 @@ li{
 	font-weight: 300;
 	line-height: 1.75em;
 }
+a{
+	text-decoration: none;
+}
 #main{
 	margin: 0 auto;
 	text-align: center;
@@ -20,14 +23,37 @@ li{
 .container{
 	padding: 5em;
 }
+.container h2{
+	font-size: 2em;
+	font-weight: 500;
+}
 .elective{
 	background-color: #39B7CD;
 	color: white;
 }
+.column-left{ 
+	float: left; width: 33%; 
+}
+.column-right{ 
+	float: right; width: 33%; 
+}
+.column-center{ 
+	display: inline-block; width: 33%; 
+}
+.clubs{
+	background-color: #AA1111;
+	color: white;
+}
+.counseling{
+	background-color: #800080;
+	color: white;
+}
+
 .container p {
 	font-size: 1.5em;
 	font-weight: 300;
 	line-height: 1.75em;
+	padding-bottom: 1.5em;
 }
 .list{
 	color: white;
