@@ -112,10 +112,10 @@ div#program_descriptions {
 
 
 footer#footer {
-    color: #ffffff;
+    color: #3a3a3a;
     padding-left: 14px;
     padding: 40px;
-    background-color: rgb(242, 179, 25);
+    background-color: #ffffca;
     height: 319px;
     font-size: 21px;
     line-height: 1.35;
@@ -183,22 +183,3 @@ div#academies_links p {
     margin: 21px;
 }
 
-.footer-column-1 {
-    float: left;
-    width: 40%;
-}
-
-.footer-column-2 {
-    float: right;
-    width: 60%;
-    padding-left: 60px;
-}
-
-footer#footer a {
-    color: white;
-}
-
-.footer-column-2 h2 {
-    font-weight: 500 !important;
-    font-size: 24px;
-}
