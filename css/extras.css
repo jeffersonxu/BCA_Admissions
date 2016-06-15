@@ -2,15 +2,20 @@
 	font-family: 'Lato', sans-serif;
 	margin: 0;
 }
+::selection{
+	background-color: #50A6C2;
+	color: white;
+}
 h1{
 	font-size: 4em;
 	font-weight: 400;
 }
 li{
 	list-style-type: none;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	font-weight: 300;
-	line-height: 1.75em;
+	padding-bottom: 1em;
+	font-weight: 400;
 }
 a{
 	text-decoration: none;
@@ -31,6 +36,9 @@ a{
 	background-color: #39B7CD;
 	color: white;
 }
+.list h1{
+	padding-bottom: 1em;
+}
 .column-left{ 
 	float: left; width: 33%; 
 }
@@ -48,7 +56,14 @@ a{
 	background-color: #800080;
 	color: white;
 }
-
+.global-education{
+	background-color: #90EE90;
+	color: white;
+}
+.projects{
+	background-color: #0A7E8C;
+	color: white;
+}
 .container p {
 	font-size: 1.5em;
 	font-weight: 300;
@@ -61,4 +76,5 @@ a{
 	text-align: center;
 	padding: 2em;
 }
+
 
