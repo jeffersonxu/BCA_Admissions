@@ -20,6 +20,7 @@ li{
 a{
 	text-decoration: none;
 }
+ 
 #main{
 	margin: 0 auto;
 	text-align: center;
@@ -31,11 +32,11 @@ a{
 	color: black;
 }
 .container h2{
-	font-size: 4em;
+	font-size: 3em;
 	font-weight: 500;
 }
 .container h3{
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 300;
 	padding-bottom: .5em;
 	padding-top: .5em;
