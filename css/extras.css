@@ -122,7 +122,60 @@ a{
 	text-align: center;
 	padding: 2em;
 }
-
+.science{
+	background-image: url("../photos_2.0/science.jpg");
+	color: white;
+	background-position: top center;
+	background-size: cover;
+}
+.business{
+	background-image: url("../photos_2.0/business.jpg");
+	color: white;
+	background-position: top center;
+	background-size: cover;
+}
+.culinary{
+	background-image: url("../photos_2.0/culinary.jpg");
+	color: white;
+	background-position: top center;
+	background-size: cover;
+}
+.engineering{
+	background-image: url("../photos_2.0/engineering.jpg");
+	color: white;
+	background-position: top center;
+	background-size: cover;
+}
+.medical{
+	background-image: url("../photos_2.0/medical.jpg");
+	color: white;
+	background-position: top center;
+	background-size: cover;
+}
+.compsci{
+	background-image: url("../photos_2.0/compsci.jpg");
+	color: white;
+	background-position: top center;
+	background-size: cover;
+}
+.music{
+	background-image: url("../photos_2.0/music.jpg");
+	color: white;
+	background-position: top center;
+	background-size: cover;
+}
+.theater{
+	background-image: url("../photos_2.0/theater.jpg");
+	color: white;
+	background-position: top center;
+	background-size: cover;
+}
+.visual{
+	background-image: url("../photos_2.0/visual.jpg");
+	color: white;
+	background-position: top center;
+	background-size: cover;
+}
 .owl-item img {
     height: 160px;
 }
