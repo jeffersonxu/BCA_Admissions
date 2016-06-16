@@ -24,6 +24,7 @@ a{
 	margin: 0 auto;
 	text-align: center;
 	padding: 13em 10px;
+	background-size: cover;
 }
 .container{
 	padding: 5em;
@@ -51,8 +52,10 @@ a{
 	display: inline-block; width: 33%; 
 }
 .clubs{
-	background-color: #AA1111;
+	background-image: url("../images/hackBCA.png");
 	color: white;
+	background-position: top center;
+	background-size: cover;
 }
 .counseling{
 	background-color: #800080;
@@ -68,8 +71,10 @@ a{
 	color: white;
 }
 .research{
-	background-color: #DCB239; 
+	background-image: url("../images/research2.JPG");
 	color: white;
+	background-position: top center;
+	background-size: cover;
 }
 
 .container p {

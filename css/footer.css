@@ -1,12 +1,15 @@
 .footer-column-1 {
     float: left;
-    width: 40%;
+    width: 50%;
+    line-height: 1.65;
+    text-align: center;
+    font-size: 19px;
 }
 
 .footer-column-2 {
     float: right;
-    width: 60%;
-    padding-left: 60px;
+    width: 50%;
+    padding-left: 140px;
 }
 
 .footer-column-2 h2 {
@@ -14,17 +17,22 @@
     font-size: 24px;
 }
 
-.footer-column-2 a {
-     color: #523c05;
+footer a {
+     color: #ca9a24;
      font-size: 18px;
+     transition: color .3s;
+}
+
+footer a:hover {
+    color: #ffd576;
 }
 
 footer#footer {
-    color: #3a3a3a;
+    color: #e4e4e4;
     padding-left: 14px;
-    padding: 40px;
-    background-color: #ffe066;
-    height: 319px;
+    padding: 46px;
+    background-color: #000000;
+    height: 349px;
     font-size: 21px;
     line-height: 1.35;
 }
