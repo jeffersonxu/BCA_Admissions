@@ -600,3 +600,7 @@ nav.cd-main-nav-wrapper {
 ul.cd-main-nav {
     overflow: hidden;
 }
+
+.cd-logo img {
+    width: 24px;
+}
