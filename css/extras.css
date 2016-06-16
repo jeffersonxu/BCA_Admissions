@@ -83,8 +83,9 @@ a{
 	background-position: top center;
 }
 .projects{
-	background-color: #0A7E8C;
+	background-image: url("../images/makerspace.jpg");
 	color: white;
+	background-position: top center;
 }
 .research{
 	background-image: url("../images/research2.JPG");
@@ -92,9 +93,20 @@ a{
 	background-position: top center;
 	background-size: cover;
 }
-#sport-info{
-	background-color: 
+.sports{
+	background-image: url("../images/girlsSoccer.jpg");
+	color: white;
+	background-position: top center;
+	background-size: cover;
 }
+
+.senior-experience {
+	background-image: url("../images/seniorexperience.jpg");
+	color: white;
+	background-position: top center;
+	background-size: cover;
+}
+
 .container p {
 	font-size: 1.5em;
 	font-weight: 300;

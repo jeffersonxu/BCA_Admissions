@@ -51,10 +51,10 @@ $( document ).scroll(function() {
 		var y = $(this).scrollTop();
 
 		if (y > 30) {
-			$(".cd-main-nav-wrapper").css(headerFixed);
+			$("header").css(headerFixed);
 	    }
 	    else {
-	    	$(".cd-main-nav-wrapper").removeAttr('style');
+	    	$("header").removeAttr('style');
 		}
 });
 
