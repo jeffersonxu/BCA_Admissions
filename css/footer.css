@@ -56,3 +56,9 @@ footer#footer {
         height: 500px;
     }
 }
+
+
+ul.footer-links li {
+    padding-bottom: 0px;
+    line-height: 1.1;
+}

@@ -201,7 +201,7 @@ header::before {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   visibility: hidden;
-  background: #1e262c;
+  background: #000000;
   -webkit-transition: visibility 0s 0.3s;
   -moz-transition: visibility 0s 0.3s;
   transition: visibility 0s 0.3s;
@@ -210,11 +210,13 @@ header::before {
   display: block;
   font-size: 1.8rem;
   padding: .9em 2em .9em 1em;
-  border-bottom: 1px solid #33414a;
+  border-bottom: 1px solid #cad20a;
   color: #ffffff;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   -moz-transition: -moz-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 .cd-main-nav li ul {
   position: absolute;
