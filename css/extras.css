@@ -77,8 +77,10 @@ a{
 	background-size: cover;
 }
 .counseling{
-	background-color: #800080;
+	background-image: url("../photos_2.0/counseling.jpg");
 	color: white;
+	background-position: top center;
+	background-size: cover;
 }
 .global-education{
 	background-image: url("../images/ABFtrip-background.jpg");
