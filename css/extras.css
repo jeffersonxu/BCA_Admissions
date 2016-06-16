@@ -15,7 +15,6 @@ li{
 	font-size: 1.25em;
 	font-weight: 300;
 	padding-bottom: 1em;
-	font-weight: 400;
 }
 a{
 	text-decoration: none;
@@ -32,8 +31,9 @@ a{
 	color: black;
 }
 .container h2{
-	font-size: 3em;
+	font-size: 2.65rem;
 	font-weight: 500;
+	padding-bottom: 10px;
 }
 .container h3{
 	font-size: 2em;
@@ -49,6 +49,8 @@ a{
 }
 .list h1{
 	padding-bottom: 1em;
+	font-size: 21px;
+	color: #fbfbfb;
 }
 .column-left{ 
 	float: left; width: 33%; 
@@ -109,14 +111,14 @@ a{
 }
 
 .container p {
-	font-size: 1.5em;
+	font-size: 20px;
 	font-weight: 300;
 	line-height: 1.75em;
 	padding-bottom: 1.5em;
 }
 .list{
-	color: black;
-	background-color: #ffdb4d; 
+	color: #d6c170;
+	background-color: #353434;
 	text-align: center;
 	padding: 2em;
 }
@@ -127,4 +129,14 @@ a{
 
 .elective h1 {
     font-size: 62px;
+}
+
+.container h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+strong {
+    font-weight: 400;
 }

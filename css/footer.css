@@ -31,8 +31,9 @@ footer#footer {
     color: #e4e4e4;
     padding-left: 14px;
     padding: 46px;
-    background-color: #000000;
+    background: url("../images/footer_background.jpg") no-repeat center 32% #242426;
     height: 349px;
     font-size: 21px;
     line-height: 1.35;
+    background-size: cover;
 }
