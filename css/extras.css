@@ -33,8 +33,10 @@ a{
 	font-weight: 500;
 }
 .elective{
-	background-color: #39B7CD;
+	background-image: url("../images/peprally.jpg");
 	color: white;
+	background-position: top center;
+	background-size: auto 101vh;
 }
 .list h1{
 	padding-bottom: 1em;
@@ -58,7 +60,6 @@ a{
 }
 .global-education{
 	background-image: url("../images/ABFtrip-background.jpg");
-	background-color: #90EE90;
 	color: white;
 	background-position: top center;
 }
@@ -73,14 +74,16 @@ a{
 	padding-bottom: 1.5em;
 }
 .list{
-	color: white;
-	background-color: #FFBF00; 
+	color: black;
+	background-color: #ffdb4d; 
 	text-align: center;
 	padding: 2em;
 }
 
-
-
 .owl-item img {
     height: 160px;
+}
+
+.elective h1 {
+    font-size: 62px;
 }

@@ -111,16 +111,6 @@ div#program_descriptions {
 }
 
 
-footer#footer {
-    color: #3a3a3a;
-    padding-left: 14px;
-    padding: 40px;
-    background-color: #ffffca;
-    height: 319px;
-    font-size: 21px;
-    line-height: 1.35;
-}
-
 .tg {
    display: table;
    border-collapse: collapse;

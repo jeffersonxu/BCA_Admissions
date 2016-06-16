@@ -15,5 +15,16 @@
 }
 
 .footer-column-2 a {
-     color: #0b1965; 
+     color: #523c05;
+     font-size: 18px;
+}
+
+footer#footer {
+    color: #3a3a3a;
+    padding-left: 14px;
+    padding: 40px;
+    background-color: #ffe066;
+    height: 319px;
+    font-size: 21px;
+    line-height: 1.35;
 }
