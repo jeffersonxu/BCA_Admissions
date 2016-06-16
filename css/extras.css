@@ -28,10 +28,17 @@ a{
 }
 .container{
 	padding: 5em;
+	color: black;
 }
 .container h2{
-	font-size: 2em;
+	font-size: 4em;
 	font-weight: 500;
+}
+.container h3{
+	font-size: 3em;
+	font-weight: 300;
+	padding-bottom: .5em;
+	padding-top: .5em;
 }
 .elective{
 	background-image: url("../images/peprally.jpg");
@@ -51,6 +58,15 @@ a{
 .column-center{ 
 	display: inline-block; width: 33%; 
 }
+.col-first{
+	float: right;
+	width: 50%;
+}
+.col-last{
+	float: right;
+	width: 50%;
+}
+
 .clubs{
 	background-image: url("../images/hackBCA.png");
 	color: white;
@@ -76,7 +92,9 @@ a{
 	background-position: top center;
 	background-size: cover;
 }
-
+#sport-info{
+	background-color: 
+}
 .container p {
 	font-size: 1.5em;
 	font-weight: 300;
