@@ -64,7 +64,7 @@ header::before {
   display: none;
   content: 'mobile';
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1175px) {
   header {
     height: 80px;
   }
@@ -98,7 +98,7 @@ header::before {
   max-width: 100%;
   margin-top: 14px;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1175px) {
   .cd-logo {
     position: absolute;
     z-index: 2;
@@ -185,7 +185,7 @@ header::before {
   -o-transform: translateY(0) rotate(45deg);
   transform: translateY(0) rotate(45deg);
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1175px) {
   .cd-nav-trigger {
     display: none;
   }
@@ -307,7 +307,7 @@ header::before {
   /* never visible or clickable- it is used to take up the same space as the .cd-subnav-trigger */
   display: none;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1175px) {
   .cd-main-nav {
     position: static;
     visibility: visible;
@@ -470,7 +470,7 @@ header::before {
   display: none;
   content: 'mobile';
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1175px) {
   .cd-main-content::before {
     content: 'desktop';
   }
@@ -493,7 +493,7 @@ header::before {
   -o-transform: translateX(-260px);
   transform: translateX(-260px);
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1175px) {
   .cd-main-content {
     /* padding-top: 80px; */
   }
@@ -544,7 +544,7 @@ header::before {
   -o-transform: translateX(0);
   transform: translateX(0);
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1175px) {
   .no-js .cd-main-nav {
     height: 80px;
   }
@@ -568,13 +568,13 @@ header::before {
 .no-js .cd-main-content {
   padding-top: 0;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1175px) {
   .no-js .cd-main-content {
     padding-top: 80px;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1175px) {
   .cd-main-nav.moves-out > li > ul {
       padding-right: 210px;
   }

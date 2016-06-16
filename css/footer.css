@@ -37,3 +37,22 @@ footer#footer {
     line-height: 1.35;
     background-size: cover;
 }
+
+@media only screen and (max-width: 690px) {
+    .footer-column-2 {
+        padding-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 537px) {
+    .footer-column-1, .footer-column-2 {
+        float: none;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    footer#footer {
+        height: 500px;
+    }
+}
