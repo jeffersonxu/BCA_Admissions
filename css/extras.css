@@ -140,3 +140,7 @@ a{
 strong {
     font-weight: 400;
 }
+
+#sport-info li {
+    line-height: 1.35;
+}

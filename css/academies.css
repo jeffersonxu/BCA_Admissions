@@ -37,16 +37,8 @@ div#description_paragraphs {
 	background-color: #5FB371;
 }
 
-.AAST{
-	background: #CFF9D2;
-}
-
 .ABF .header {
     background: #AD7C33;
-}
-
-.ABF {
-    background: #F3E7D9;
 }
 
 .AMST .header {
@@ -57,50 +49,22 @@ div#description_paragraphs {
     background: #123467;
 }
 
-.AEDT {
-    background: #E6EEF5;
-    min-height: 68vh;
-}
-
 .ACHA .header {
     background: #CA448E;
-}
-
-.ACHA {
-    background: #FFF0FC;
-    min-height: 68vh;
 }
 
 .AVPA-M .header {
     background: #C0A4E6;
 }
 
-.AVPA-M {
-    background: #FCF4FD;
-}
-
 .AVPA-T .header {
     background: #40026F;
-}
-
-.AVPA-T {
-    background: #F7F0FF;
-    min-height: 70vh;
 }
 
 .AVPA-V .header {
     background: #E47401;
 }
 
-.AVPA-V {
-    background: #FFEEE0;
-}
-
 .ATCS .header {
     background: #43BDA7;
 }
-
-.ATCS  {
-    background: #F0FFFE;
-}
-
