@@ -61,7 +61,7 @@ a{
 .column-center{ 
 	display: inline-block; width: 33%; 
 }
-#sport-info{
+#two-col{
 	display: flex;
     justify-content: space-between;
 }
