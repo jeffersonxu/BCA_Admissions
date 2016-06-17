@@ -61,13 +61,9 @@ a{
 .column-center{ 
 	display: inline-block; width: 33%; 
 }
-.col-first{
-	float: right;
-	width: 50%;
-}
-.col-last{
-	float: right;
-	width: 50%;
+#sport-info{
+	display: flex;
+    justify-content: space-between;
 }
 
 .clubs{
