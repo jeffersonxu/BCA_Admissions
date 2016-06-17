@@ -9,6 +9,26 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="../js/nav.js"></script> 
 
+		<!-- Owl Carousel --> 
+		<link rel="stylesheet" href="../css/owl.carousel.css">
+		<link rel="stylesheet" href="../css/owl.theme.css">
+		<script src="../js/owl.carousel.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
+
+		<script>
+		$(document).ready(function() {
+ 
+		  var owl = $("#owl-demo");
+		 
+		  owl.owlCarousel({
+		    navigation : true,
+		    singleItem : true,
+		    autoplay : true
+		  });
+		 
+		});
+		</script>
+
 		<link rel="stylesheet" href="../css/footer.css">
 
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
@@ -72,6 +92,15 @@
 				<p>In twelfth grade, students go beyond the AP theory curriculum in Advanced Problems in Music Theory & Technology. Here, students delve into augmented sixth and Neapolitan chords, fugal composition techniques, and analysis of twentiethcentury music. Twelfth graders complete the program with Senior Music and Media Seminar, where they present a lecturerecital or build a musical instrument!</p>
 
 				<p>Finally, each AVPA-M student is required to participate in 2 trimesters of a performing music course each year (band, orchestra, choir or ensemble). The AVPA-M program is not a conservatory or a full-time performing arts program- we offer a college preparatory, academic honors program, with a focus in music.</p>
+
+				<div id="owl-demo" class="owl-carousel owl-theme">
+				  <div class="item"> <img src = "../images/music1.jpg"> </div>
+				  <div class="item"> <img src = "../images/music2.jpg"> </div>
+				  <div class="item"> <img src = "../images/music3.jpg"> </div>
+				  <div class="item"> <img src = "../images/music4.jpg"> </div>
+				  <div class="item"> <img src = "../images/music5.jpg"> </div>
+				  <div class="item"> <img src = "../images/music6.jpg"> </div>
+				</div>
 			</div>
 
 			<footer id = "footer">

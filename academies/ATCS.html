@@ -9,6 +9,26 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="../js/nav.js"></script> 
 
+		<!-- Owl Carousel --> 
+		<link rel="stylesheet" href="../css/owl.carousel.css">
+		<link rel="stylesheet" href="../css/owl.theme.css">
+		<script src="../js/owl.carousel.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
+
+		<script>
+		$(document).ready(function() {
+ 
+		  var owl = $("#owl-demo");
+		 
+		  owl.owlCarousel({
+		    navigation : true,
+		    singleItem : true,
+		    autoplay : true
+		  });
+		 
+		});
+		</script>
+
 		<link rel="stylesheet" href="../css/footer.css">
 
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
@@ -67,6 +87,14 @@
 				<p>Because of their strong backgrounds in computer science, ATCS students have competed successfully in the following programming competitions: The IBM Mainframe Contest, The International Computer Science Olympiad, the New Jersey Institute of Technology Programming Competition, the Oracle Programming Competition, the Future Business Leaders of America Competition, and the American Computer Science League. An ATCS student will be well prepared for a college major such as computer science, computer engineering, or information systems.</p>
 
 				<p>ATCS students who decide not to pursue computer-related careers in the future will find that the technical skills they have acquired through the academy’s curriculum will prove to be useful in a number of other fields.</p>
+
+				<div id="owl-demo" class="owl-carousel owl-theme">
+				  <div class="item"> <img src = "../images/compsci1.JPG"> </div>
+				  <div class="item"> <img src = "../images/compsci2.JPG"> </div>
+				  <div class="item"> <img src = "../images/compsci3.JPG"> </div>
+				  <div class="item"> <img src = "../images/senior_experience3.jpg"> </div>
+				</div>
+
 			</div>
 			<footer id = "footer">
 			<div class = "footer-column-1">

@@ -9,6 +9,26 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="../js/nav.js"></script> 
 
+		<!-- Owl Carousel --> 
+		<link rel="stylesheet" href="../css/owl.carousel.css">
+		<link rel="stylesheet" href="../css/owl.theme.css">
+		<script src="../js/owl.carousel.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
+
+		<script>
+		$(document).ready(function() {
+ 
+		  var owl = $("#owl-demo");
+		 
+		  owl.owlCarousel({
+		    navigation : true,
+		    singleItem : true,
+		    autoplay : true
+		  });
+		 
+		});
+		</script>
+
 		<link rel="stylesheet" href="../css/footer.css">
 
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
@@ -68,6 +88,13 @@
 				<p>ABF has incorporated an emphasis on a global perspective. The driving force behind this global component is the integration of the International Baccalaureate curriculum to an already rigorous course of study. The IB Diploma Program, in which all ABF 11th and 12th graders enroll, is an internationally recognized degree program administered by the International Baccalaureate Organization in Geneva, Switzerland. To earn the IB diploma, students must complete a two year sequence of courses in humanities, math, and science. In addition, ABF students are required to complete a senior thesis and a unique class on interdisciplinary analysis, as well as requirements in the arts, community service, and athletics.</p>
 				
 				<p>A unique feature of our Academy is the Financial Markets Lab. Our lab is equipped with Bloomberg technology, a resource utilized by finance professionals worldwide; it enables our students to conduct economic and financial research and analysis using real-time economic and market data and sophisticated analytic tools. Our proximity to New York City offers our students opportunities to visit some of the world&#39;s leading financial institutions. Furthermore, our global exchange program offers students the opportunity to gain exposure to the international business community.</p>
+
+				<div id="owl-demo" class="owl-carousel owl-theme">
+				  <div class="item"> <img src = "../images/business1.JPG"> </div>
+				  <div class="item"> <img src = "../images/business2.JPG"> </div>
+				  <div class="item"> <img src = "../images/business3.JPG"> </div>
+				</div>
+
 			</div>
 
 			<footer id = "footer">
