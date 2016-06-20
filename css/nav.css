@@ -104,7 +104,7 @@ header::before {
     position: absolute;
     z-index: 2;
     margin-left: 5%;
-    padding-top: 28px;
+	padding-top: 29.5px;
   }
   .cd-logo img {
     margin-top: 29px;
