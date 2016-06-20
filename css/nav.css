@@ -92,7 +92,7 @@ header::before {
   transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding-top: 15px;
+  padding-top: 14px;
 }
 .cd-logo img {
   display: block;
@@ -104,6 +104,7 @@ header::before {
     position: absolute;
     z-index: 2;
     margin-left: 5%;
+    padding-top: 28px;
   }
   .cd-logo img {
     margin-top: 29px;
@@ -611,5 +612,5 @@ ul.cd-main-nav {
 .cd-logo a {
     color: white;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
