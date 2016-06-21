@@ -16,18 +16,32 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
 
 		<script>
-		$(document).ready(function() {
- 
-		  var owl = $("#owl-demo");
-		 
-		  owl.owlCarousel({
-		    navigation : true,
-		    singleItem : true,
-		    autoplay : true
-		  });
-		 
-		});
+			$(document).ready(function() { 
+				$('.owl-carousel').owlCarousel({
+				    loop:true,
+				    nav:true,
+				    animateOut: 'fadeOut',
+				    animateIn: 'fadeIn',
+				    items:1,
+				    margin:30,
+				    autoplay:true,
+				    stagePadding:30,
+				});
+			});
 		</script>
+
+		<style>
+			#owl-carousel .owl-item img {
+			    display: block;
+			    width: auto;
+			    height: 200px;
+			    margin: 0 auto;
+			}
+
+			div#owl-carousel {
+			    padding-bottom: 20px;
+			}
+		</style>
 
 		<link rel="stylesheet" href="../css/footer.css">
 
@@ -93,13 +107,13 @@
 
 				<p>Finally, each AVPA-M student is required to participate in 2 trimesters of a performing music course each year (band, orchestra, choir or ensemble). The AVPA-M program is not a conservatory or a full-time performing arts program- we offer a college preparatory, academic honors program, with a focus in music.</p>
 
-				<div id="owl-demo" class="owl-carousel owl-theme">
-				  <div class="item"> <img src = "../images/music1.jpg"> </div>
-				  <div class="item"> <img src = "../images/music2.jpg"> </div>
-				  <div class="item"> <img src = "../images/music3.jpg"> </div>
-				  <div class="item"> <img src = "../images/music4.jpg"> </div>
-				  <div class="item"> <img src = "../images/music5.jpg"> </div>
-				  <div class="item"> <img src = "../images/music6.jpg"> </div>
+				<div id="owl-carousel" class="owl-carousel">
+				  <div> <img src = "../images/music1.jpg"> </div>
+				  <div> <img src = "../images/music2.jpg"> </div>
+				  <div> <img src = "../images/music3.jpg"> </div>
+				  <div> <img src = "../images/music4.jpg"> </div>
+				  <div> <img src = "../images/music5.jpg"> </div>
+				  <div> <img src = "../images/music6.jpg"> </div>
 				</div>
 			</div>
 

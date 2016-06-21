@@ -14,20 +14,34 @@
 		<link rel="stylesheet" href="../css/owl.theme.css">
 		<script src="../js/owl.carousel.js"></script>
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
-
+		
 		<script>
-		$(document).ready(function() {
- 
-		  var owl = $("#owl-demo");
-		 
-		  owl.owlCarousel({
-		    navigation : true,
-		    singleItem : true,
-		    autoplay : true
-		  });
-		 
-		});
+			$(document).ready(function() { 
+				$('.owl-carousel').owlCarousel({
+				    loop:true,
+				    nav:true,
+				    animateOut: 'fadeOut',
+				    animateIn: 'fadeIn',
+				    items:1,
+				    margin:30,
+				    autoplay:true,
+				    stagePadding:30,
+				});
+			});
 		</script>
+
+		<style>
+			#owl-carousel .owl-item img {
+			    display: block;
+			    width: auto;
+			    height: 200px;
+			    margin: 0 auto;
+			}
+
+			div#owl-carousel {
+			    padding-bottom: 20px;
+			}
+		</style>
 
 		<link rel="stylesheet" href="../css/footer.css">
 
@@ -38,7 +52,7 @@
 	<body>
 
 		<header>
-			<div class="cd-logo"><a href="index.html">BCA</a></div>
+			<div class="cd-logo"><a href="../index.html">BCA</a></div>
 		 
 			<nav class="cd-main-nav-wrapper">
 				<ul class="cd-main-nav">
@@ -88,11 +102,11 @@
 
 				<p>AEDT focuses on general engineering disciplines and prepares students for entrance into college engineering programs. While not everyone in this academy will pursue engineering, those that choose to do so have a solid background in the field and are likely to successfully master college courses. Students are also prepared to pursue careers in the technical aspects of business or law. Articulation agreements with universities enable AEDT students to receive college credit for some of the core courses taken in this program.</p>
 
-				<div id="owl-demo" class="owl-carousel owl-theme">
-				  <div class="item"> <img src = "../images/engineering1.JPG"> </div>
-				  <div class="item"> <img src = "../images/engineering2.JPG"> </div>
-				  <div class="item"> <img src = "../images/engineering3.JPG"> </div>
-				  <div class="item"> <img src = "../images/engineering4.JPG"> </div>
+				<div id="owl-carousel" class="owl-carousel">
+				  <div> <img src = "../images/engineering1.JPG"> </div>
+				  <div> <img src = "../images/engineering2.JPG"> </div>
+				  <div> <img src = "../images/engineering3.JPG"> </div>
+				  <div> <img src = "../images/engineering4.JPG"> </div>
 				</div>
 
 			</div>

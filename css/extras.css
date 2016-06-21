@@ -175,11 +175,6 @@ a{
 	background-position: top center;
 	background-size: cover;
 }
-.owl-item img {
-    height: 160px;
-    margin: 0 auto;
-    display: block;
-}
 
 .elective h1 {
     font-size: 62px;
@@ -199,8 +194,4 @@ strong {
     line-height: 1.35;
 }
 
-div#owl-example {
-    width: 750px !important;
-    padding-bottom: 40px;
-    margin: 0 auto;
-}
+

@@ -59,7 +59,7 @@ $( document ).scroll(function() {
 });
 
 var headerFixed = {
-	background : "#33414a",
+	background : "rgb(45, 45, 45)",
 	transition : ".4s"
 }
 

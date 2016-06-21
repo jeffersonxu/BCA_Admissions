@@ -1,6 +1,7 @@
 <DOCTYPE! HTML>
 <html class="no-js">
 	<head>
+		<title>AAST</title>
 
 		<!-- NAVBAR FILES -->
 		<script src="../js/modernizr.js"></script> 
@@ -11,23 +12,38 @@
 
 		<!-- Owl Carousel --> 
 		<link rel="stylesheet" href="../css/owl.carousel.css">
+		<link rel="stylesheet" href="../css/animate.css">
 		<link rel="stylesheet" href="../css/owl.theme.css">
 		<script src="../js/owl.carousel.js"></script>
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
 
 		<script>
-		$(document).ready(function() {
- 
-		  var owl = $("#owl-demo");
-		 
-		  owl.owlCarousel({
-		    navigation : true,
-		    singleItem : true,
-		    autoplay : true
-		  });
-		 
-		});
+			$(document).ready(function() { 
+				$('.owl-carousel').owlCarousel({
+				    loop:true,
+				    nav:true,
+				    animateOut: 'fadeOut',
+				    animateIn: 'fadeIn',
+				    items:1,
+				    margin:30,
+				    autoplay:true,
+				    stagePadding:30,
+				});
+			});
 		</script>
+
+		<style>
+			#owl-carousel .owl-item img {
+			    display: block;
+			    width: auto;
+			    height: 200px;
+			    margin: 0 auto;
+			}
+
+			div#owl-carousel {
+			    padding-bottom: 20px;
+			}
+		</style>
 		<link rel="stylesheet" href="../css/footer.css">
 
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
@@ -38,7 +54,7 @@
 	<body>
 
 		<header>
-			<div class="cd-logo"><a href="index.html">BCA</a></div>
+			<div class="cd-logo"><a href="../index.html">BCA</a></div>
 		 
 			<nav class="cd-main-nav-wrapper">
 				<ul class="cd-main-nav">
@@ -97,14 +113,14 @@
 
 				<p>Many of the AAST faculty have years of industrial experience and several hold doctorates in their area of expertise. Additionally, through our Senior Experience program and other industrial or academic collaborations, AAST students have several opportunities to interact with outside experts from institutions including Columbia, BASF, Princeton, Stevens and the American Museum of Natural History to name just a few. Whether they pursue further science or choose another path, AAST graduates possess the knowledge, skills and experience to succeed in a number of fields.</p>
 			</div>
-			<div id="owl-demo" class="owl-carousel owl-theme">
-			  <div class="item"> <img src = "../images/science1.jpg"> </div>
-			  <div class="item"> <img src = "../images/science2.jpg"> </div>
-			  <div class="item"> <img src = "../images/research.jpg"> </div>
-			  <div class="item"> <img src = "../images/senior_experiance1.jpg"> </div>
+			<div id="owl-carousel" class="owl-carousel">
+			  <div> <img src = "../images/science1.jpg"> </div>
+			  <div> <img src = "../images/research.jpg"> </div>
+			  <div> <img src = "../images/science2.jpg"> </div>
+			  <div> <img src = "../images/senior_experiance1.jpg"> </div>
 			</div>
 
-				<footer id = "footer">
+		<footer id = "footer">
 			<div class = "footer-column-1">
 				<p>Dr. John Grieco Campus &middot; 200 Hackensack Avenue,</p>
 				<p>Hackensack, New Jersey 07601</p>

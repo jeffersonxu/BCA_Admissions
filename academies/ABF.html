@@ -16,18 +16,32 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
 
 		<script>
-		$(document).ready(function() {
- 
-		  var owl = $("#owl-demo");
-		 
-		  owl.owlCarousel({
-		    navigation : true,
-		    singleItem : true,
-		    autoplay : true
-		  });
-		 
-		});
+			$(document).ready(function() { 
+				$('.owl-carousel').owlCarousel({
+				    loop:true,
+				    nav:true,
+				    animateOut: 'fadeOut',
+				    animateIn: 'fadeIn',
+				    items:1,
+				    margin:30,
+				    autoplay:true,
+				    stagePadding:30,
+				});
+			});
 		</script>
+
+		<style>
+			#owl-carousel .owl-item img {
+			    display: block;
+			    width: auto;
+			    height: 200px;
+			    margin: 0 auto;
+			}
+
+			div#owl-carousel {
+			    padding-bottom: 20px;
+			}
+		</style>
 
 		<link rel="stylesheet" href="../css/footer.css">
 
@@ -39,7 +53,7 @@
 	<body>
 
 		<header>
-			<div class="cd-logo"><a href="index.html">BCA</a></div>
+			<div class="cd-logo"><a href="../index.html">BCA</a></div>
 		 
 			<nav class="cd-main-nav-wrapper">
 				<ul class="cd-main-nav">
@@ -88,11 +102,11 @@
 				<p>ABF has incorporated an emphasis on a global perspective. The driving force behind this global component is the integration of the International Baccalaureate curriculum to an already rigorous course of study. The IB Diploma Program, in which all ABF 11th and 12th graders enroll, is an internationally recognized degree program administered by the International Baccalaureate Organization in Geneva, Switzerland. To earn the IB diploma, students must complete a two year sequence of courses in humanities, math, and science. In addition, ABF students are required to complete a senior thesis and a unique class on interdisciplinary analysis, as well as requirements in the arts, community service, and athletics.</p>
 				
 				<p>A unique feature of our Academy is the Financial Markets Lab. Our lab is equipped with Bloomberg technology, a resource utilized by finance professionals worldwide; it enables our students to conduct economic and financial research and analysis using real-time economic and market data and sophisticated analytic tools. Our proximity to New York City offers our students opportunities to visit some of the world&#39;s leading financial institutions. Furthermore, our global exchange program offers students the opportunity to gain exposure to the international business community.</p>
-
-				<div id="owl-demo" class="owl-carousel owl-theme">
-				  <div class="item"> <img src = "../images/business1.JPG"> </div>
-				  <div class="item"> <img src = "../images/business2.JPG"> </div>
-				  <div class="item"> <img src = "../images/business3.JPG"> </div>
+				
+				<div id="owl-carousel" class="owl-carousel">
+				  <div> <img src = "../images/business1.JPG"> </div>
+				  <div> <img src = "../images/business2.JPG"> </div>
+				  <div> <img src = "../images/business3.JPG"> </div>
 				</div>
 
 			</div>

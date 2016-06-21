@@ -16,18 +16,32 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
 
 		<script>
-		$(document).ready(function() {
- 
-		  var owl = $("#owl-demo");
-		 
-		  owl.owlCarousel({
-		    navigation : true,
-		    singleItem : true,
-		    autoplay : true
-		  });
-		 
-		});
+			$(document).ready(function() { 
+				$('.owl-carousel').owlCarousel({
+				    loop:true,
+				    nav:true,
+				    animateOut: 'fadeOut',
+				    animateIn: 'fadeIn',
+				    items:1,
+				    margin:30,
+				    autoplay:true,
+				    stagePadding:30,
+				});
+			});
 		</script>
+
+		<style>
+			#owl-carousel .owl-item img {
+			    display: block;
+			    width: auto;
+			    height: 200px;
+			    margin: 0 auto;
+			}
+
+			div#owl-carousel {
+			    padding-bottom: 20px;
+			}
+		</style>
 
 		<link rel="stylesheet" href="../css/footer.css">
 
@@ -88,11 +102,11 @@
 
 				<p>ATCS students who decide not to pursue computer-related careers in the future will find that the technical skills they have acquired through the academy’s curriculum will prove to be useful in a number of other fields.</p>
 
-				<div id="owl-demo" class="owl-carousel owl-theme">
-				  <div class="item"> <img src = "../images/compsci1.JPG"> </div>
-				  <div class="item"> <img src = "../images/compsci2.JPG"> </div>
-				  <div class="item"> <img src = "../images/compsci3.JPG"> </div>
-				  <div class="item"> <img src = "../images/senior_experience3.jpg"> </div>
+				<div id="owl-carousel" class="owl-carousel">
+				  <div> <img src = "../images/compsci1.JPG"> </div>
+				  <div> <img src = "../images/compsci2.JPG"> </div>
+				  <div> <img src = "../images/compsci3.JPG"> </div>
+				  <div> <img src = "../images/senior_experience3.jpg"> </div>
 				</div>
 
 			</div>

@@ -16,18 +16,32 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
 
 		<script>
-		$(document).ready(function() {
- 
-		  var owl = $("#owl-demo");
-		 
-		  owl.owlCarousel({
-		    navigation : true,
-		    singleItem : true,
-		    autoplay : true
-		  });
-		 
-		});
+			$(document).ready(function() { 
+				$('.owl-carousel').owlCarousel({
+				    loop:true,
+				    nav:true,
+				    animateOut: 'fadeOut',
+				    animateIn: 'fadeIn',
+				    items:1,
+				    margin:30,
+				    autoplay:true,
+				    stagePadding:30,
+				});
+			});
 		</script>
+
+		<style>
+			#owl-carousel .owl-item img {
+			    display: block;
+			    width: auto;
+			    height: 200px;
+			    margin: 0 auto;
+			}
+
+			div#owl-carousel {
+			    padding-bottom: 20px;
+			}
+		</style>
 
 		<link rel="stylesheet" href="../css/footer.css">
 
@@ -38,7 +52,7 @@
 	<body>
 
 		<header>
-			<div class="cd-logo"><a href="index.html">BCA</a></div>
+			<div class="cd-logo"><a href="../index.html">BCA</a></div>
 		 
 			<nav class="cd-main-nav-wrapper">
 				<ul class="cd-main-nav">
@@ -88,13 +102,14 @@
 
 				<p>While at the Academies, ACAHA seniors have interned at Restaurant Daniel, the Loews Regency Hotel and the New York Hilton.</p>
 
-				<div id="owl-demo" class="owl-carousel owl-theme">
-				  <div class="item"> <img src = "../images/culinary1.JPG"> </div>
-				  <div class="item"> <img src = "../images/culinary2.JPG"> </div>
-				  <div class="item"> <img src = "../images/culinary3.JPG"> </div>
-				  <div class="item"> <img src = "../images/senior_experiance2.jpg"> </div>
-				  <div class="item"> <img src = "../images/senior_experiance3.jpg"> </div>
+				<div id="owl-carousel" class="owl-carousel">
+				  <div> <img src = "../images/culinary1.JPG"> </div>
+				  <div> <img src = "../images/culinary2.JPG"> </div>
+				  <div> <img src = "../images/culinary3.JPG"> </div>
+				  <div> <img src = "../images/senior_experiance2.jpg"> </div>
+				  <div> <img src = "../images/senior_experiance3.jpg"> </div>
 				</div>
+
 
 			</div>
 

@@ -16,18 +16,32 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
 
 		<script>
-		$(document).ready(function() {
- 
-		  var owl = $("#owl-demo");
-		 
-		  owl.owlCarousel({
-		    navigation : true,
-		    singleItem : true,
-		    autoplay : true
-		  });
-		 
-		});
+			$(document).ready(function() { 
+				$('.owl-carousel').owlCarousel({
+				    loop:true,
+				    nav:true,
+				    animateOut: 'fadeOut',
+				    animateIn: 'fadeIn',
+				    items:1,
+				    margin:30,
+				    autoplay:true,
+				    stagePadding:30,
+				});
+			});
 		</script>
+
+		<style>
+			#owl-carousel .owl-item img {
+			    display: block;
+			    width: auto;
+			    height: 200px;
+			    margin: 0 auto;
+			}
+
+			div#owl-carousel {
+			    padding-bottom: 20px;
+			}
+		</style>
 
 		<link rel="stylesheet" href="../css/footer.css">
 
@@ -85,11 +99,11 @@
 				<p>Our goal is to nurture creativity and imagination, develop skills and discipline and emphasize process. Rather than provide students with a single technique we introduce young artists to a variety of methods (i.e. mask work, viewpoints, Stanislavsky technique), encouraging them to learn to work in ways most productive for their individual growth.</p>
 
 				<p>Theatre concentration students will be well prepared to audition for college and conservatory Theatre Arts programs (BA and BFA). AVPA theatre students, because of their course of study, will be ready for almost any college major or career path encountered in the 21st Century. Students acquire a deep understanding of multiple perspectives and world views and a keen ear for the subtleties and nuances in language, music and movement. Moreover, they have enhanced and developed imaginative capacity, flexible ways of thinking, self-discipline, and sophisticated presentation skills.</p>
-
-				<div id="owl-demo" class="owl-carousel owl-theme">
-				  <div class="item"> <img src = "../images/theatre1.jpg"> </div>
-				  <div class="item"> <img src = "../images/theater2.jpg"> </div>
-				  <div class="item"> <img src = "../images/theatre2.jpg"> </div>
+				
+				<div id="owl-carousel" class="owl-carousel">
+				  <div> <img src = "../images/theatre1.jpg"> </div>
+				  <div> <img src = "../images/theater2.jpg"> </div>
+				  <div> <img src = "../images/theatre2.jpg"> </div>
 				</div>
 			</div>
 
